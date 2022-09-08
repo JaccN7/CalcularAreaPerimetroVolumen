@@ -22,7 +22,7 @@ public class Area {
         System.out.println("Se tienen las sigueintes medidas del Area: \n *Base: " + base + "\n *Altura: " + altura);
     }
     
-    public int calcularArea(int base, int altura){
+    public int calcularArea(){
         area = base * altura;
         return area;
     }

@@ -24,7 +24,7 @@ public class Volumen {
         System.out.println("Se tienen las siguientes medidas del volumen:\n Altura: " + altura + "\n *Ancho: " + ancho + "\n *Largo: " + largo);
     }
     
-    public int calcularVolumen(int altura, int ancho, int largo){
+    public int calcularVolumen(){
         volumen = altura * ancho * largo;
         return volumen;
     }
